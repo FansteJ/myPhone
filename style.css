@@ -8,7 +8,9 @@ body {
 }
 
 .telefon {
-    background-color: black;
+    background-image: url("pictures/background.jpg");
+    background-position: center;
+    background-size: cover;
     width: 600px;
     height: 100%;
     border: 2px solid #888;
@@ -21,13 +23,13 @@ body {
 }
 
 .gore {
-    background-color: #111;
     color: white;
     padding: 8px 12px;
     font-size: 14px;
     display: flex;
     justify-content: space-between;
     font-family: monospace;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .sadrzaj {
@@ -35,10 +37,13 @@ body {
     text-align: center;
     font-family: sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 1;
 }
 
 .dole {
-    background-color: #111;
     color: white;
     padding: 8px 12px;
     font-size: 14px;
@@ -46,6 +51,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .homeSlika {
@@ -98,4 +104,13 @@ p b {
 
 ul li {
     text-align: left;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
