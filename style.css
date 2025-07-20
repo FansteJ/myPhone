@@ -90,3 +90,12 @@ body {
 p b {
     font-size: 20px;
 }
+
+.table-calendar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul li {
+    text-align: left;
+}
