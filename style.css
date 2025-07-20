@@ -86,3 +86,7 @@ body {
     margin-top: 6px;
     font-size: 12px;
 }
+
+p b {
+    font-size: 20px;
+}
