@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.telefon {
+    background-color: black;
+    width: 600px;
+    height: 100%;
+    border: 2px solid #888;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    position: relative;
+}
+
+.gore {
+    background-color: #111;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+}
+
+.sadrzaj {
+    padding: 60px 20px 20px 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.dole {
+    background-color: #111;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.homeSlika {
+    height: auto;
+    width: 60px;
+}
+
+.unos {
+    width: 80%;
+    padding: 6px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.dugmeMain {
+    padding: 6px 10px;
+    border: none;
+    background-color: #4285F4;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px 16px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.app img {
+    width: 50px;
+    height: 50px;
+}
+
+.app p {
+    margin-top: 6px;
+    font-size: 12px;
+}
