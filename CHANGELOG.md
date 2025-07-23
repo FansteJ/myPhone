@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://github.com/FansteJ/myPhone/compare/v1.3.0...v1.4.0) (2025-07-23)
+
+
+### Features
+
+* add Register page ([8ab1e88](https://github.com/FansteJ/myPhone/commit/8ab1e88cacb19736d14e259078c485306b7c3644))
+
 ## [1.3.0](https://github.com/FansteJ/myPhone/compare/v1.2.0...v1.3.0) (2025-07-23)
 
 
