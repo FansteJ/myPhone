@@ -100,6 +100,7 @@ p b {
 .table-calendar {
     margin-left: auto;
     margin-right: auto;
+    border-color: white;
 }
 
 ul li {
@@ -113,4 +114,9 @@ a {
 
 a:visited {
     color: white;
+}
+
+.calc-wiki {
+    text-decoration: underline;
+    color: gold;
 }
