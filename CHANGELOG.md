@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/FansteJ/myPhone/compare/v1.2.0...v1.3.0) (2025-07-23)
+
+
+### Features
+
+* add Wallet app ([6d3c423](https://github.com/FansteJ/myPhone/commit/6d3c423148930bedf1cfa22542b9fbb855978525))
+
 ## [1.2.0](https://github.com/FansteJ/myPhone/compare/v1.1.0...v1.2.0) (2025-07-20)
 
 
