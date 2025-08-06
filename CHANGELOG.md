@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.6.0](https://github.com/FansteJ/myPhone/compare/v1.5.0...v1.6.0) (2025-08-06)
+
+
+### Features
+
+* Add an actual game Cookie Clicker ([cc93c93](https://github.com/FansteJ/myPhone/commit/cc93c9386eaf3a4ce247e395c6bee28a3324f536))
+* Add registration page for wallet app ([faa1952](https://github.com/FansteJ/myPhone/commit/faa195263bcff8aec62293bd614a8c0c07b1f145))
+
 ## [1.5.0](https://github.com/FansteJ/myPhone/compare/v1.4.0...v1.5.0) (2025-07-23)
 
 
