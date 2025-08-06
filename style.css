@@ -251,3 +251,53 @@ input {
         transform: translateY(-50px);
     }
 }
+
+#register-form {
+    padding: 16px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 16px;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: white;
+}
+
+#register-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+#register-form button {
+    padding: 12px;
+    border: none;
+    background-color: #cf39a2;
+    color: white;
+    font-size: 16px;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+#error-message {
+    text-align: center;
+    font-weight: bold;
+}
+
+.gender-options {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}

@@ -9,36 +9,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="initialize()">
+    <div class="telefon">
+        <div class="gore">
+            <span class="time">13:47</span>
+            <span class="notification">🔔 1</span>
+            <span class="battery">🔋 87%</span>
+        </div>
+        <div class="sadrzaj" style="padding-top: 20px;">
+            <h1>myWallet</h1>
+            <form id="register-form">
+                <label>
+                    Email:
+                    <input type="email" id="email" required />
+                </label>
+                <label>
+                    Username:
+                    <input type="text" id="username" required pattern="^[a-zA-Z0-9_]{3,15}$"
+                        title="Only letters, numbers and _ (3-15 letters required)" />
+                </label>
+                <label>
+                    Password:
+                    <input type="password" id="password" required minlength="8" />
+                </label>
+                <label>
+                    Confirm password:
+                    <input type="password" id="confirm-password" required />
+                </label>
+                <label>
+                    Date of birth:
+                    <input type="date" id="birthdate" required />
+                </label>
+                <label>
+                    Gender:
+                    <div class="gender-options">
+                        <label><input type="radio" name="gender" value="male" required /> Male</label>
+                        <label><input type="radio" name="gender" value="female" /> Female</label>
+                        <label><input type="radio" name="gender" value="other" /> Other</label>
+                    </div>
+                </label>
+                <label>
+                    Phone number:
+                    <input type="tel" name="phone" id="phone" required pattern="^\+?[0-9]{7,15}$"
+                        title="Enter a valid phone number (7-15 digits, optional + at the start)" />
+                </label>
 
+                <button type="submit">Register</button>
+                <div id="error-message" style="color: red;"></div>
+
+                <!-- <p>Already have an account? Log in <a href="wallet.html"><i><u>here</u></i></a></p> -->
+            </form>
+        </div>
+        <div class="dole">
+            <a href="index.html"><img src="https://freesvg.org/img/iPhone-Home-Button.png" alt="Home"
+                    class="homeSlika"></a>
+        </div>
+    </div>
+    <script src="scriptForm.js"></script>
 </body>
-<div class="telefon">
-    <div class="gore">
-        <span class="time">13:47</span>
-        <span class="notification">🔔 1</span>
-        <span class="battery">🔋 87%</span>
-    </div>
-    <div class="sadrzaj">
-        <h1>myWallet</h1>
-        <form action="">
-            <h2>Register</h2>
-            <input type="text" placeholder="Name">
-            <br>
-            <input type="text" placeholder="Surname">
-            <br>
-            <input type="number" placeholder="Age">
-            <br>
-            <input type="text" placeholder="Email">
-            <br>
-            <input type="password" placeholder="Password">
-            <br>
-            <input type="submit" value="Submit">
-            <p>Already have an account? Log in <a href="wallet.html"><i><u>here</u></i></a></p>
-        </form>
-    </div>
-    <div class="dole">
-        <a href="index.html"><img src="https://freesvg.org/img/iPhone-Home-Button.png" alt="Home" class="homeSlika"></a>
-    </div>
-</div>
 
 </html>
