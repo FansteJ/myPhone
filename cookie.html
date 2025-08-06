@@ -7,34 +7,45 @@
     <title>Cookie clicker - myPhone 13 Pro</title>
     <link rel="icon" href="pictures/apple.png" type="image/png">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="initialize()">
 
+
+    <div class="telefon">
+        <div class="gore">
+            <span class="time">13:47</span>
+            <span class="notification">🔔 1</span>
+            <span class="battery">🔋 87%</span>
+        </div>
+        <div class="sadrzaj" style="padding-top: 20px;">
+            <div class="cookie-info">
+                <span><img src="pictures/cookieBalance.png" alt="Cookie balance">
+                    <p id="cookie-balance"></p>
+                </span>
+                <span>
+                    <p id="per-click"></p>
+                </span>
+                <span>
+                    <p id="cookie-rate"></p> <img src="pictures/factory.png" alt="Factory">
+                </span>
+            </div>
+            <div class="cookie-upgrades" id="cookie-upgrades">
+                <div><img src="pictures/cookieUpgrade.png" alt="Cookie upgrade"> Cookie 1</div>
+            </div>
+            <img src="pictures/cookie.png" alt="Cookie clicker" id="cookie-click" onclick="addCookies(event)">
+            <div id="floating-texts"></div>
+            <button id="prestige-btn" onclick="prestige()"></button>
+            <div class="factory-upgrades" id="factory-upgrades">
+                <div><img src="pictures/factory.png" alt="Factory upgrade"> Factory 1</div>
+            </div>
+        </div>
+        <div class="dole">
+            <a href="index.html"><img src="https://freesvg.org/img/iPhone-Home-Button.png" alt="Home"
+                    class="homeSlika"></a>
+        </div>
+    </div>
 </body>
-<div class="telefon">
-    <div class="gore">
-        <span class="time">13:47</span>
-        <span class="notification">🔔 1</span>
-        <span class="battery">🔋 87%</span>
-    </div>
-    <div class="sadrzaj">
-        <h1>Cookie clicker</h1>
-        <p><i>New game coming soon!</i></p>
-        <p><b><u>Main characteristics:</u></b></p>
-        <ul>
-            <li>Clicking on cookie gives player one crunch!</li>
-            <ol>
-                <li>Player can upgrade cookie with crunches</li>
-                <li>Player can <i>prestige</i> and take on bigger challenges</li>
-            </ol>
-            <li>Building factories generate passive income!</li>
-            <li>Progress is saved with accounts!</li>
-        </ul>
-    </div>
-    <div class="dole">
-        <a href="index.html"><img src="https://freesvg.org/img/iPhone-Home-Button.png" alt="Home" class="homeSlika"></a>
-    </div>
-</div>
 
 </html>
